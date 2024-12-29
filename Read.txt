@@ -1,0 +1,15 @@
+1)Code/Excel Changes
+ -"git status" - to check the list of files updated and not saved
+ -"git add" ....changed files one by one
+ -do "git commit -m 'message' "
+ -"git push" to push to github repository
+
+2)Deployment
+ 
+  -Open Mobaexterm
+  -open terminal
+  -Goto security key location i.e Desktop
+  -run "ssh -i "Dashboard.pem" ec2-user@ec2-13-203-104-148.ap-south-1.compute.amazonaws.com" to connect to ec2
+  - run  "cd DashboardApp"
+  -"git pull" to get the latest code changes
+  -python3 dash_app.py 
