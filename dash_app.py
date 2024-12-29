@@ -10,7 +10,7 @@ from pyngrok import ngrok  # Import ngrok
 app = dash.Dash(__name__)
 
 # File path to your Excel file
-file_path = r"E:\Dash.xlsx"  # Update this with the correct file path
+file_path = r"Dash.xlsx"  # Update this with the correct file path
 
 # Load data from each tab
 dash_1_data = pd.read_excel(file_path, sheet_name='Dash_1')  # Tab 1: Dash_1
